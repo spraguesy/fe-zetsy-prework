@@ -18,3 +18,77 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#header {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+#header a {
+	color: rgb(152, 173, 166);
+	font-family: Bakerville, serif;
+	font-size: 5em;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+#header a:hover {
+	color: rgb(111, 127, 122);
+}
+
+.necklace img {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(111, 127, 122);
+	border-image: initial;
+}
+
+h2 {
+	color: rgb(111, 127, 122);
+	font-size: 2em;
+}
+
+#about a {
+	color: rgb(23, 131, 187);
+	text-decoration: none;
+}
+
+.pressLinks img {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(204, 204, 204);
+	border-image: initial;
+	padding: 1px;
+}
+
+#press img {
+	float: left;
+	margin-left: 0.25%;
+}
+
+#press .first img {
+	margin-left: 0%;
+}
+
+#rights p {
+	float: right;
+}
+
+#press img:hover {
+	border-color: rgb(111, 127, 122);
+}
+
+.clearfix::after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	line-height: 0px;
+}
+
+img {
+	border: 0;
+}
